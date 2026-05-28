@@ -21,7 +21,7 @@ public class Demo1Application {
         return this.personService.greeting();
     }
 
-    @RequestMapping("/jsonPerson")
+    @RequestMapping("/jsonperson")
     public Person personalia() {
         return this.personService.jsonPerson();
     }
